@@ -285,7 +285,7 @@ h2::after {
     width: 180px;
     height: 180px;
     border-radius: 12px;
-    background-image: url(files/me.jpeg);
+    background-image: url(files/images/profile_pic.jpg);
     background-position: center;
     background-size: cover;
     border: 4px solid #ffffff;
