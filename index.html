@@ -85,21 +85,20 @@
 
         <section id="publications" class="publications-section">
             <div class="section-card">
-                <h2>Publications</h2>
-
-                <div class="pub-search-bar">
-                    <div class="pub-search-input-wrap">
-                        <svg class="pub-search-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-                        <input type="text" id="pub-search" placeholder="Search by title, author, venue…" autocomplete="off" spellcheck="false">
+                <div class="pub-header">
+                    <h2>Publications</h2>
+                    <div class="pub-search-wrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                        <input type="text" id="pub-search" placeholder="Search…" autocomplete="off" spellcheck="false">
                         <button class="pub-search-clear" id="pub-search-clear" title="Clear">&#10005;</button>
                     </div>
-                    <div class="pub-filters" id="pub-filters">
-                        <button class="pub-filter active" data-filter="all">All</button>
-                        <button class="pub-filter" data-filter="iros">IROS</button>
-                        <button class="pub-filter" data-filter="arxiv">arXiv</button>
-                        <button class="pub-filter" data-filter="2025">2025</button>
-                        <button class="pub-filter" data-filter="2024">2024</button>
-                    </div>
+                </div>
+                <div class="pub-filters">
+                    <button class="pub-filter active" data-filter="all">All</button>
+                    <button class="pub-filter" data-filter="iros">IROS</button>
+                    <button class="pub-filter" data-filter="arxiv">arXiv</button>
+                    <button class="pub-filter" data-filter="2025">2025</button>
+                    <button class="pub-filter" data-filter="2024">2024</button>
                 </div>
 
                 <div class="section-content" id="pub-list">
